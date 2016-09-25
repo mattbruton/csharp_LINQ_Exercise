@@ -65,6 +65,5 @@ namespace LINQ_Practice
             var expected = PracticeData.Select(c => c.Name).ToList();
             CollectionAssert.AreEqual(expected, new List<string> { "Evening Five", "Cohort of the Future", "Evening Ninja Warriors", "Day Backgammon Geeks" });
         }
-
     }
 }

@@ -66,7 +66,7 @@ namespace LINQ_Practice
         public void DoAllActiveCohortsHavePrimaryInstructorsWithFirstNamesThatContainTheLetterA()
         {
             var doAll = PracticeData.All(c => c.PrimaryInstructor.FirstName.ToLower().Contains("a"));
-            Assert.IsFalse(doAll); //<-- change false to doAll
+            Assert.IsFalse(doAll);
         }
     }
 }
